@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% block head %}
+    <title>Folio Manager - {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="/static/nav.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    {% endblock %}
+  </head>
+  <body>
+    <div class="navbar">
+      <span class="title"> Welcome To Folio Manager </span>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/features">Features</a>
+      <a href="/faq">FAQ</a>
+      <a href="/contact">Contact</a>
+    </div>
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+      {% block footer %} &copy; Copyright 2023 by
+      <a href="http://example.com/">you</a>. {% endblock %}
+    </div>
+  </body>
+</html>
