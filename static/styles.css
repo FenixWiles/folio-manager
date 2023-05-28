@@ -1,0 +1,112 @@
+.welcome {
+  max-width: 50%;
+  float: right;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  margin-top: 3px;
+}
+
+.righty {
+  float: right;
+  color: rgb(113, 113, 113);
+  margin-top: 13px;
+  margin-right: 10px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styles for the login widget */
+.login-widget {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-widget h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-widget label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-widget input[type="text"],
+.login-widget input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-widget button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-widget button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Styles for the registration widget */
+.registration-widget {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-widget h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-widget label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.registration-widget input[type="email"],
+.registration-widget input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registration-widget button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registration-widget button[type="submit"]:hover {
+  background-color: #45a049;
+}

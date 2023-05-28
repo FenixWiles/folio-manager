@@ -39,6 +39,18 @@ async def faq(request: Request):
     return templates.TemplateResponse("features.html", context)
 
 
+@app.get("/login")
+async def faq(request: Request):
+    context = {"request": request, "message": "Hello, FastAPI with Jinja2!"}
+    return templates.TemplateResponse("login.html", context)
+
+
+@app.get("/register")
+async def faq(request: Request):
+    context = {"request": request, "message": "Hello, FastAPI with Jinja2!"}
+    return templates.TemplateResponse("register.html", context)
+
+
 @app.get("/api/")
 async def read_root():
     return {"version": "0.0.1"}

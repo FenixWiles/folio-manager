@@ -4,12 +4,18 @@
     {% block head %}
     <title>Folio Manager - {% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="/static/nav.css" />
+    <link rel="stylesheet" href="/static/styles.css" />
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="/static/stuff.js"></script>
     {% endblock %}
   </head>
   <body>
     <div class="navbar">
-      <span class="title"> Welcome To Folio Manager </span>
+      <span class="righty">
+        <a href="/login"> Login </a>
+        <a href="/register"> Register </a>
+        <span class="title"> Welcome To Folio Manager </span>
+      </span>
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="/features">Features</a>
