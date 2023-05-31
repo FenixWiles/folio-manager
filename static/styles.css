@@ -110,3 +110,6 @@
 .registration-widget button[type="submit"]:hover {
   background-color: #45a049;
 }
+.goofy {
+  color: blue;
+}
