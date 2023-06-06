@@ -22,6 +22,12 @@
   padding: 20px;
   text-align: center;
 }
+.welcome-header {
+  text-align: center;
+}
+.welcome1 {
+  text-align: center;
+}
 
 /* Styles for the login widget */
 .login-widget {
